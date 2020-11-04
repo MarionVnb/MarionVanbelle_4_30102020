@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+ul {
+    list-style: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -775,7 +779,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
