@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 	<meta name="description" content="Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<code><meta name="robots" content="index, follow"></code>
+	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
@@ -18,7 +18,7 @@
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
-    <title>La Chouette Agence - Contact</title>
+	<title>La Chouette Agence - Contact</title>
 
     
 <!-- Analytics -->
@@ -31,7 +31,7 @@
 <main class="page-container">
     
 <!-- header -->
-<header class="bloc bgc-white l-bloc" role="banner">
+<header class="bloc bgc-white l-bloc">
 	<nav class="navbar row">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="index.html"><img src="img/logo-nav.png" alt="logo la chouette agence - page d'accueil"/></a>
@@ -70,30 +70,30 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1">
 					<div class="form-group">
-						<label for="nom">
+						<label for="name">
 							Nom*
 						</label>
-						<input type="text" name="name" id="name" class="form-control" required aria-required=true/>
+						<input type="text" name="name" id="name" class="form-control" required/>
 					</div>
 					<div class="form-group">
-						<label for="mail">
+						<label for="email">
 							Adresse email*
 						</label>
-						<input id="email" class="form-control" type="email" required aria-required=true/>
+						<input id="email" class="form-control" type="email" required/>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?*
 						</label>
-						<input class="form-control" type="text" required aria-required=true id="input_504" placeholder="bouche à oreille, internet, autre" />
+						<input class="form-control" type="text" required id="input_504" placeholder="bouche à oreille, internet, autre" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)*<br>
 						</label>
-						<textarea id="message" class="form-control" rows="4" cols="50" required aria-required=true></textarea>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
