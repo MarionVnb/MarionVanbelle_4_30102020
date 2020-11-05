@@ -8,11 +8,10 @@ body {
 }
 
 .menu-hover:hover{
-    background-color:rgba(243, 151, 108, .4);
-    border-radius: 50%;
-    font-size:1.6em ;
+    background-color:rgba(243, 151, 108, .3);
+    border-radius: 20%;
+    font-size:1.3em ;
 }
-
 
 .en-cours{
     border-top:1px solid #F3976C;
@@ -23,6 +22,9 @@ ul {
     list-style: none;
 }
 
+.contrast{
+    color:#252a2a;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -666,13 +668,13 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #252a2a!important;
 }
 
 h4{
     font-family: "helvetica";
     font-weight: 700;
-    color:#FFFFFF;
+    color:#252a2a;
 }
 .container {
     max-width: 1000px;
@@ -766,7 +768,7 @@ h3 {
 }
 
 .black-background {
-    background-color: rgba(114, 103, 74, 0.7);
+    background-color: rgba(37, 42, 42, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -793,12 +795,12 @@ h3 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #252a2a!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #252a2a!important;
+    color: #F3976C!important;
 }
 
 .ltc-white {
