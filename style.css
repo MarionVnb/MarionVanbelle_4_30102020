@@ -13,6 +13,10 @@ body {
     font-size:1.3em ;
 }
 
+a:hover{
+    text-decoration: underline!important;
+    cursor: pointer;
+}
 .en-cours{
     border-top:1px solid #F3976C;
     font-size: 1.8em;
@@ -29,11 +33,6 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-}
-
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
 }
 
 #page-loading-blocs-notifaction {
